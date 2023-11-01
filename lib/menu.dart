@@ -25,7 +25,7 @@ class MyHomePage extends StatelessWidget {
           'Shopping List',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.black,
       ),
       body: SingleChildScrollView(
         // Widget wrapper yang dapat discroll
@@ -78,7 +78,7 @@ class ShopCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.red,
+      color: Colors.grey,
       child: InkWell(
         // Area responsive terhadap sentuhan
         onTap: () {
